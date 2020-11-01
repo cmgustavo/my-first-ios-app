@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC236066254DEE6900E51FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC236065254DEE6900E51FBA /* AppDelegate.swift */; };
+		EC236068254DEE6900E51FBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC236067254DEE6900E51FBA /* SceneDelegate.swift */; };
+		EC23606A254DEE6900E51FBA /* StarWarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC236069254DEE6900E51FBA /* StarWarsVC.swift */; };
+		EC23606D254DEE6900E51FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC23606B254DEE6900E51FBA /* Main.storyboard */; };
+		EC23606F254DEE6900E51FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC23606E254DEE6900E51FBA /* Assets.xcassets */; };
+		EC236072254DEE6900E51FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC236070254DEE6900E51FBA /* LaunchScreen.storyboard */; };
+		EC236080254DEF1A00E51FBA /* StarWarsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23607F254DEF1A00E51FBA /* StarWarsServices.swift */; };
+		EC236087254DF0F000E51FBA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC236086254DF0F000E51FBA /* Character.swift */; };
+		EC23608A254DF20100E51FBA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC236089254DF20100E51FBA /* APIError.swift */; };
+		EC23608D254DFDF000E51FBA /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23608C254DFDF000E51FBA /* CharacterCell.swift */; };
+		EC236093254E3E7600E51FBA /* CharacterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC236092254E3E7600E51FBA /* CharacterVC.swift */; };
+		EC23609A254E6FE700E51FBA /* HomeWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC236099254E6FE700E51FBA /* HomeWorldVC.swift */; };
+		EC23609D254E78E900E51FBA /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23609C254E78E900E51FBA /* World.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC236062254DEE6900E51FBA /* starwars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starwars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC236065254DEE6900E51FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC236067254DEE6900E51FBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC236069254DEE6900E51FBA /* StarWarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsVC.swift; sourceTree = "<group>"; };
+		EC23606C254DEE6900E51FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC23606E254DEE6900E51FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC236071254DEE6900E51FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC236073254DEE6900E51FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC23607F254DEF1A00E51FBA /* StarWarsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsServices.swift; sourceTree = "<group>"; };
+		EC236086254DF0F000E51FBA /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		EC236089254DF20100E51FBA /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		EC23608C254DFDF000E51FBA /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		EC236092254E3E7600E51FBA /* CharacterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterVC.swift; sourceTree = "<group>"; };
+		EC236099254E6FE700E51FBA /* HomeWorldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorldVC.swift; sourceTree = "<group>"; };
+		EC23609C254E78E900E51FBA /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC23605F254DEE6900E51FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC236059254DEE6900E51FBA = {
+			isa = PBXGroup;
+			children = (
+				EC236064254DEE6900E51FBA /* starwars */,
+				EC236063254DEE6900E51FBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC236063254DEE6900E51FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC236062254DEE6900E51FBA /* starwars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC236064254DEE6900E51FBA /* starwars */ = {
+			isa = PBXGroup;
+			children = (
+				EC23608F254E313E00E51FBA /* Controller */,
+				EC23607E254DEED800E51FBA /* Model */,
+				EC23607D254DEED300E51FBA /* View */,
+				EC23607B254DEEB600E51FBA /* Services */,
+				EC236065254DEE6900E51FBA /* AppDelegate.swift */,
+				EC236069254DEE6900E51FBA /* StarWarsVC.swift */,
+				EC236067254DEE6900E51FBA /* SceneDelegate.swift */,
+				EC23606B254DEE6900E51FBA /* Main.storyboard */,
+				EC23606E254DEE6900E51FBA /* Assets.xcassets */,
+				EC236070254DEE6900E51FBA /* LaunchScreen.storyboard */,
+				EC236073254DEE6900E51FBA /* Info.plist */,
+			);
+			path = starwars;
+			sourceTree = "<group>";
+		};
+		EC23607B254DEEB600E51FBA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC23607F254DEF1A00E51FBA /* StarWarsServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC23607D254DEED300E51FBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC23608C254DFDF000E51FBA /* CharacterCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC23607E254DEED800E51FBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC236086254DF0F000E51FBA /* Character.swift */,
+				EC236089254DF20100E51FBA /* APIError.swift */,
+				EC23609C254E78E900E51FBA /* World.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC23608F254E313E00E51FBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC236092254E3E7600E51FBA /* CharacterVC.swift */,
+				EC236099254E6FE700E51FBA /* HomeWorldVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC236061254DEE6900E51FBA /* starwars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC236076254DEE6900E51FBA /* Build configuration list for PBXNativeTarget "starwars" */;
+			buildPhases = (
+				EC23605E254DEE6900E51FBA /* Sources */,
+				EC23605F254DEE6900E51FBA /* Frameworks */,
+				EC236060254DEE6900E51FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = starwars;
+			productName = starwars;
+			productReference = EC236062254DEE6900E51FBA /* starwars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC23605A254DEE6900E51FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EC236061254DEE6900E51FBA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = EC23605D254DEE6900E51FBA /* Build configuration list for PBXProject "starwars" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC236059254DEE6900E51FBA;
+			productRefGroup = EC236063254DEE6900E51FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC236061254DEE6900E51FBA /* starwars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC236060254DEE6900E51FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC236072254DEE6900E51FBA /* LaunchScreen.storyboard in Resources */,
+				EC23606F254DEE6900E51FBA /* Assets.xcassets in Resources */,
+				EC23606D254DEE6900E51FBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC23605E254DEE6900E51FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC236080254DEF1A00E51FBA /* StarWarsServices.swift in Sources */,
+				EC23609A254E6FE700E51FBA /* HomeWorldVC.swift in Sources */,
+				EC23606A254DEE6900E51FBA /* StarWarsVC.swift in Sources */,
+				EC236093254E3E7600E51FBA /* CharacterVC.swift in Sources */,
+				EC23609D254E78E900E51FBA /* World.swift in Sources */,
+				EC236087254DF0F000E51FBA /* Character.swift in Sources */,
+				EC23608D254DFDF000E51FBA /* CharacterCell.swift in Sources */,
+				EC236066254DEE6900E51FBA /* AppDelegate.swift in Sources */,
+				EC236068254DEE6900E51FBA /* SceneDelegate.swift in Sources */,
+				EC23608A254DF20100E51FBA /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC23606B254DEE6900E51FBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC23606C254DEE6900E51FBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC236070254DEE6900E51FBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC236071254DEE6900E51FBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC236074254DEE6900E51FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC236075254DEE6900E51FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC236077254DEE6900E51FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDVET7WB22;
+				INFOPLIST_FILE = starwars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmgustavo.starwars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC236078254DEE6900E51FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDVET7WB22;
+				INFOPLIST_FILE = starwars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmgustavo.starwars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC23605D254DEE6900E51FBA /* Build configuration list for PBXProject "starwars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC236074254DEE6900E51FBA /* Debug */,
+				EC236075254DEE6900E51FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC236076254DEE6900E51FBA /* Build configuration list for PBXNativeTarget "starwars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC236077254DEE6900E51FBA /* Debug */,
+				EC236078254DEE6900E51FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC23605A254DEE6900E51FBA /* Project object */;
+}
