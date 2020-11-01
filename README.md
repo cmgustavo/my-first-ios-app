@@ -1,2 +1,2 @@
 # my-first-ios-app
-First Project: Start Wars
+First Project: Star Wars
